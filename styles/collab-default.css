@@ -1,0 +1,2458 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.collab-default-oBc {
+  box-sizing: border-box;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+.collab-default-oBc .gnb-i3g {
+  margin-bottom: 0.4rem;
+  width: 100%;
+  height: 9.7rem;
+  backdrop-filter: blur(1rem);
+  background-color: rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+.collab-default-oBc .gnb-i3g .navbar1-r9t {
+  box-sizing: border-box;
+  padding: 2.7rem 11.2rem 2.7rem 11.8rem;
+  width: 100%;
+  height: 9.6rem;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #000000;
+}
+.collab-default-oBc .gnb-i3g .navbar1-r9t .workie-logo-mGr {
+  margin-right: 22.1rem;
+  width: 13.3rem;
+  height: 1.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .gnb-i3g .navbar1-r9t .menu-JGn {
+  margin: 0.3rem 19.65rem 0.3rem 0rem;
+  height: calc(100% - 0.6rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .gnb-i3g .navbar1-r9t .menu-JGn .home-pW2 {
+  margin-right: 10.1rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.6363636364;
+  letter-spacing: -0.044rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .gnb-i3g .navbar1-r9t .menu-JGn .item--Kxa {
+  margin-right: 8.95rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.6363636364;
+  letter-spacing: -0.044rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .gnb-i3g .navbar1-r9t .menu-JGn .item--DHG {
+  margin-right: 7.9rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.6363636364;
+  letter-spacing: -0.044rem;
+  color: #ffffff;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .gnb-i3g .navbar1-r9t .menu-JGn .aipedia-KLJ {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.6363636364;
+  letter-spacing: -0.044rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .gnb-i3g .navbar1-r9t .button-intro-drn {
+  width: 14.6rem;
+  height: 100%;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2999999788;
+  letter-spacing: -0.054rem;
+  color: #ffffff;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #ffffff;
+  box-sizing: border-box;
+  border-radius: 2.5rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ {
+  width: 100%;
+  height: 221.4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .thumb-CYW {
+  width: 0.6rem;
+  height: 55.35rem;
+  position: absolute;
+  left: 142.9rem;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.3rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk {
+  box-sizing: border-box;
+  padding: 0rem 3.1rem 0rem 8rem;
+  width: 112rem;
+  height: 44.1rem;
+  position: absolute;
+  left: 16rem;
+  top: 7.5rem;
+  background-color: #0d6efd;
+  border-radius: 2.4rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .left-aox {
+  margin: 8rem 20rem 7.2rem 0rem;
+  width: 35.4rem;
+  height: calc(100% - 15.2rem);
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .left-aox .text-urE {
+  margin-bottom: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .left-aox .text-urE .create-your-messaing-faW {
+  margin-bottom: 1.6rem;
+  max-width: 35.4rem;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.2380952381;
+  letter-spacing: -0.084rem;
+  color: #ffffff;
+  font-family: SF Pro, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .left-aox .text-urE .phosfluorescently-en-ybC {
+  max-width: 33.3rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Pretendard, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .left-aox .button-JdU {
+  margin-right: 16.5rem;
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem 1.2rem 3.3rem;
+  width: calc(100% - 16.5rem);
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 3.9rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .left-aox .button-JdU .get-started-q7c {
+  margin-right: 1.1rem;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 1.2575;
+  letter-spacing: -0.048rem;
+  color: #212121;
+  font-family: SF Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .left-aox .button-JdU .icon-arrow-right-wwL {
+  margin-bottom: 0.2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten {
+  width: 45.5rem;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten .auto-group-m92w-DP4 {
+  width: 46.1rem;
+  height: 48.3rem;
+  position: absolute;
+  left: -0.6rem;
+  top: -4.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten .slack-icone-svg-150px-7DY {
+  box-sizing: border-box;
+  padding: 1.387rem 1.387rem 1.387rem 1.387rem;
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  left: 3.9rem;
+  top: 7.4rem;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.150000006);
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten .slack-icone-svg-150px-7DY .auto-group-x9if-Z5Y {
+  margin-bottom: 0.2667rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten .slack-icone-svg-150px-7DY .auto-group-x9if-Z5Y .vector-UiJ {
+  margin-right: 0.32rem;
+  width: 2.4533rem;
+  height: 2.4533rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten .slack-icone-svg-150px-7DY .auto-group-x9if-Z5Y .vector-zAr {
+  width: 2.4533rem;
+  height: 2.4533rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten .slack-icone-svg-150px-7DY .auto-group-f6to-j8S {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten .slack-icone-svg-150px-7DY .auto-group-f6to-j8S .vector-HQr {
+  margin-right: 0.32rem;
+  width: 2.4533rem;
+  height: 2.5067rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .cta-imk .textimage-2nS .image-Ten .slack-icone-svg-150px-7DY .auto-group-f6to-j8S .vector-dDp {
+  width: 2.4533rem;
+  height: 2.5067rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ {
+  width: 110.4rem;
+  height: 41.69rem;
+  position: absolute;
+  left: 16.8rem;
+  top: 68.81rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 {
+  width: 34.4rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .item--BPk {
+  margin-bottom: 2.79rem;
+  display: flex;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.2857142857;
+  letter-spacing: -0.056rem;
+  color: rgba(255, 255, 255, 0.8999999762);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp {
+  width: 100%;
+  height: 35.3rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .image-yKc {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-42a.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 .content-HzW {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 .content-HzW .imageplaceholder-DtA {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-Ttr.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 .content-HzW .imageplaceholder-DtA .content-xqk {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 .content-HzW .textitem-tzJ {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 .content-HzW .textitem-tzJ .text-2Kp {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 .content-HzW .textitem-tzJ .text-LbQ {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 .iconplaceholder-qo4 {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .cardheader-Mb4 .iconplaceholder-qo4 .content-bGS {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .auto-group-luum-DDx .content-9Hx {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .actionsarea-E4W {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.003rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .actionsarea-E4W .tag-L7Y {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .actionsarea-E4W .tag-L7Y .badge-tag-Gmt {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .actionsarea-E4W .tag-L7Y .badge-tag-mCr {
+  box-sizing: border-box;
+  padding: 0.1475rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .actionsarea-E4W .tag-L7Y .badge-tag-DqY {
+  box-sizing: border-box;
+  padding: 0.1475rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-bnmd-pp6 .card-fZp .cardpattern-dFk .auto-group-mwr3-tBg .actionsarea-E4W .launch-uCa {
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt {
+  box-sizing: border-box;
+  padding: 6.39rem 0rem 0rem 3.6rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 {
+  margin-right: 3.6rem;
+  width: 34.4rem;
+  height: 100%;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .image-BZQ {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-QEa.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS .content-XWn {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS .content-XWn .imageplaceholder-fN6 {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-PYa.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS .content-XWn .imageplaceholder-fN6 .content-cYE {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS .content-XWn .textitem-kuL {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS .content-XWn .textitem-kuL .text-6iJ {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS .content-XWn .textitem-kuL .text-dTL {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS .iconplaceholder-8Q6 {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .cardheader-arS .iconplaceholder-8Q6 .content-ssU {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .auto-group-rn4o-F3U .content-RPC {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .actionsarea-KDg {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.003rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .actionsarea-KDg .tag-dVG {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .actionsarea-KDg .tag-dVG .badge-tag-mrN {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .actionsarea-KDg .tag-dVG .badge-tag-s8i {
+  box-sizing: border-box;
+  padding: 0.1475rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .actionsarea-KDg .tag-dVG .badge-tag-Yke {
+  box-sizing: border-box;
+  padding: 0.1475rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-HD8 .cardpattern-dXt .auto-group-gqys-ukJ .actionsarea-KDg .launch-RpS {
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp {
+  width: 34.4rem;
+  height: 100%;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .image-1ne {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-x62.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti .content-NWi {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti .content-NWi .imageplaceholder-J9U {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-qft.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti .content-NWi .imageplaceholder-J9U .content-FKc {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti .content-NWi .textitem-Pgi {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti .content-NWi .textitem-Pgi .text-jEn {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti .content-NWi .textitem-Pgi .text-rqC {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti .iconplaceholder-kva {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .cardheader-Dti .iconplaceholder-kva .content-i6i {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .auto-group-yxvk-spr .content-fGr {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .actionsarea-xFx {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.003rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .actionsarea-xFx .tag-TyQ {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .actionsarea-xFx .tag-TyQ .badge-tag-c5c {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .actionsarea-xFx .tag-TyQ .badge-tag-Jz2 {
+  box-sizing: border-box;
+  padding: 0.1475rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .actionsarea-xFx .tag-TyQ .badge-tag-z6A {
+  box-sizing: border-box;
+  padding: 0.1475rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-6NJ .auto-group-wrs3-kyt .card-uDp .cardpattern-U22 .auto-group-zq1d-jyY .actionsarea-xFx .launch-fi6 {
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi {
+  width: 110.75rem;
+  height: 41.69rem;
+  position: absolute;
+  left: 16.5rem;
+  top: 113.9rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .item--Ran {
+  margin-bottom: 2.79rem;
+  display: flex;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.2857142857;
+  letter-spacing: -0.056rem;
+  color: rgba(255, 255, 255, 0.8999999762);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp {
+  margin-left: 0.35rem;
+  width: 34.4rem;
+  height: 35.3rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .image-Cjx {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-aMC.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe .content-vpN {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe .content-vpN .imageplaceholder-Fre {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-9LJ.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe .content-vpN .imageplaceholder-Fre .content-158 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe .content-vpN .textitem-jmp {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe .content-vpN .textitem-jmp .text-sd8 {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe .content-vpN .textitem-jmp .text-zhk {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe .iconplaceholder-hcA {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .cardheader-PJe .iconplaceholder-hcA .content-Spe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .auto-group-grgf-SPQ .content-Pjt {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .actionsarea-V2E {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.002rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .actionsarea-V2E .tag-bb4 {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .actionsarea-V2E .tag-bb4 .badge-tag-9Mg {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .actionsarea-V2E .tag-bb4 .badge-tag-3CA {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .actionsarea-V2E .tag-bb4 .badge-tag-7C2 {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xrgj-frW .card-6wp .cardpattern-TGa .auto-group-wnjk-LLN .actionsarea-V2E .launch-arJ {
+  margin-top: 0rem;
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 {
+  box-sizing: border-box;
+  padding: 6.39rem 0rem 0rem 3.6rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn {
+  margin-right: 3.6rem;
+  width: 34.4rem;
+  height: 100%;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .image-sU2 {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-6Un.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN .content-pna {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN .content-pna .imageplaceholder-ZEN {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-sEN.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN .content-pna .imageplaceholder-ZEN .content-Jhk {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN .content-pna .textitem-qhg {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN .content-pna .textitem-qhg .text-n78 {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN .content-pna .textitem-qhg .text-JLN {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN .iconplaceholder-Psc {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .cardheader-ggN .iconplaceholder-Psc .content-wu8 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .auto-group-3cum-jWE .content-WBY {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .actionsarea-bTt {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.002rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .actionsarea-bTt .tag-WKx {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .actionsarea-bTt .tag-WKx .badge-tag-SzJ {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .actionsarea-bTt .tag-WKx .badge-tag-kk6 {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .actionsarea-bTt .tag-WKx .badge-tag-S78 {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-mvn .cardpattern-vHt .auto-group-tzkq-14S .actionsarea-bTt .launch-pNa {
+  margin-top: 0rem;
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU {
+  width: 34.4rem;
+  height: 100%;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .image-bne {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-9d8.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz .content-aHC {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz .content-aHC .imageplaceholder-WRk {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-kt6.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz .content-aHC .imageplaceholder-WRk .content-SqC {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz .content-aHC .textitem-z62 {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz .content-aHC .textitem-z62 .text-7wL {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz .content-aHC .textitem-z62 .text-Sii {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz .iconplaceholder-Ymk {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .cardheader-SAz .iconplaceholder-Ymk .content-tqc {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .auto-group-mfio-Hot .content-3iW {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .actionsarea-kN2 {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.002rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .actionsarea-kN2 .tag-Fpa {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .actionsarea-kN2 .tag-Fpa .badge-tag-bdY {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .actionsarea-kN2 .tag-Fpa .badge-tag-JH4 {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .actionsarea-kN2 .tag-Fpa .badge-tag-Bre {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-wQi .auto-group-xgwr-r38 .card-hBU .cardpattern-Fyg .auto-group-xxfd-MvE .actionsarea-kN2 .launch-rxn {
+  margin-top: 0rem;
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti {
+  width: 110.75rem;
+  height: 41.69rem;
+  position: absolute;
+  left: 16.5rem;
+  top: 158.99rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .item--CvA {
+  margin-bottom: 2.79rem;
+  display: flex;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 1.2857142857;
+  letter-spacing: -0.056rem;
+  color: rgba(255, 255, 255, 0.8999999762);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er {
+  margin-left: 0.35rem;
+  width: 34.4rem;
+  height: 35.3rem;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .image-PDx {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-1VG.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg .content-urW {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg .content-urW .imageplaceholder-r14 {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-eWr.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg .content-urW .imageplaceholder-r14 .content-nvJ {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg .content-urW .textitem-jKk {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg .content-urW .textitem-jKk .text-fjC {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg .content-urW .textitem-jKk .text-Pv6 {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg .iconplaceholder-udY {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .cardheader-Nbg .iconplaceholder-udY .content-3ze {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .auto-group-sn6j-2ni .content-Q4W {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .actionsarea-tkN {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.002rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .actionsarea-tkN .tag-Qii {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .actionsarea-tkN .tag-Qii .badge-tag-9gJ {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .actionsarea-tkN .tag-Qii .badge-tag-r4v {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .actionsarea-tkN .tag-Qii .badge-tag-v4n {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-osym-rLW .card-6Er .cardpattern-S3p .auto-group-qdnf-79x .actionsarea-tkN .launch-nsg {
+  margin-top: 0rem;
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ {
+  box-sizing: border-box;
+  padding: 6.39rem 0rem 0rem 3.6rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc {
+  margin-right: 3.6rem;
+  width: 34.4rem;
+  height: 100%;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .image-hdG {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-cRt.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v .content-egv {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v .content-egv .imageplaceholder-nHL {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-Hve.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v .content-egv .imageplaceholder-nHL .content-XVp {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v .content-egv .textitem-4ke {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v .content-egv .textitem-4ke .text-Q3p {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v .content-egv .textitem-4ke .text-8Ei {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v .iconplaceholder-ptE {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .cardheader-W4v .iconplaceholder-ptE .content-BCz {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .auto-group-v38k-A14 .content-Xne {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .actionsarea-pWr {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.002rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .actionsarea-pWr .tag-YBx {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .actionsarea-pWr .tag-YBx .badge-tag-5hg {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .actionsarea-pWr .tag-YBx .badge-tag-X3t {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .actionsarea-pWr .tag-YBx .badge-tag-kBY {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-CRc .cardpattern-ki2 .auto-group-rtud-dG2 .actionsarea-pWr .launch-8bQ {
+  margin-top: 0rem;
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS {
+  width: 34.4rem;
+  height: 100%;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.200000003), 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1000000015);
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L {
+  width: 100%;
+  height: 33.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .image-5ux {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-bg-oTk.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp {
+  box-sizing: border-box;
+  padding: 1.1rem 1.6rem 0rem 1.6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  height: 6.2rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC {
+  width: 31.2rem;
+  height: 4.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC .content-cYW {
+  margin: 0.5rem 16.7rem 0rem 0rem;
+  width: 12.1rem;
+  height: 4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC .content-cYW .imageplaceholder-YBG {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/imageplaceholder-bg-aKp.png');
+  border-radius: 2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC .content-cYW .imageplaceholder-YBG .content-H8r {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC .content-cYW .textitem-1ae {
+  width: 11.5rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC .content-cYW .textitem-1ae .text-Yaa {
+  width: 11.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC .content-cYW .textitem-1ae .text-s74 {
+  width: 9.1rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.024rem;
+  color: rgba(60, 60, 67, 0.6000000238);
+  font-family: SF Pro Text, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC .iconplaceholder-miE {
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .cardheader-UhC .iconplaceholder-miE .content-vLE {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(60, 60, 67, 0.3000000119);
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .auto-group-x22b-wBU .content-U6r {
+  width: 27.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 4.2rem;
+  overflow: hidden;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  color: #5b5b5b;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .actionsarea-kq4 {
+  margin-left: 0.6rem;
+  box-sizing: border-box;
+  padding: 0.002rem 0.376rem 0.003rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .actionsarea-kq4 .tag-UFG {
+  margin-right: 10.1738rem;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .actionsarea-kq4 .tag-UFG .badge-tag-DTk {
+  width: 3.998rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .actionsarea-kq4 .tag-UFG .badge-tag-Jk6 {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 5.398rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .actionsarea-kq4 .tag-UFG .badge-tag-nfG {
+  box-sizing: border-box;
+  padding: 0.148rem 0.599rem 0.147rem 0.599rem;
+  width: 6.798rem;
+  height: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6846876144;
+  color: rgba(0, 0, 0, 0.400000006);
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #e5ecf6;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .signal-sec1-7ti .auto-group-gjtk-Typ .card-PGS .cardpattern-Y9L .auto-group-mues-1Hp .actionsarea-kq4 .launch-fyx {
+  margin-top: 0rem;
+  width: 2.2562rem;
+  height: 2.25rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut {
+  width: 144rem;
+  height: 7.8042rem;
+  position: absolute;
+  left: 0;
+  top: 59.7rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .div-sKL {
+  width: 110.4rem;
+  height: 5.7rem;
+  position: absolute;
+  left: 16.8rem;
+  top: 0.7rem;
+  overflow: hidden;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .div-sKL .frame-105-oTt {
+  width: 100%;
+  height: 100%;
+  border-bottom: solid 0.1rem #ffffff;
+  box-sizing: border-box;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .div-sKL .frame-105-oTt .auto-group-adct-Zhx {
+  margin: 0rem 95rem 1.5rem 0rem;
+  box-sizing: border-box;
+  padding: 0.2rem 0;
+  width: 15.4rem;
+  height: 4.2rem;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .div-sKL .frame-105-oTt .auto-group-adct-Zhx .frame-108-syY {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .div-sKL .frame-105-oTt .auto-group-adct-Zhx .frame-108-syY .sub2-25k {
+  margin-right: 1.2rem;
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 0.9375;
+  color: #ffffff;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .div-sKL .frame-105-oTt .auto-group-adct-Zhx .frame-108-syY .sub2-YZt {
+  margin-right: 1.6rem;
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 0.9375;
+  color: #ffffff;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .div-sKL .frame-105-oTt .auto-group-adct-Zhx .frame-108-syY .sub2-scA {
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 0.9375;
+  color: #ffffff;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .rectangle-34624102-b2N {
+  box-sizing: border-box;
+  padding: 0.5rem 2.1rem 0.81rem 2.1rem;
+  width: 27.4rem;
+  height: 4.31rem;
+  position: absolute;
+  left: 80.2rem;
+  top: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.6666666667;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/combined-shape-jZg.png');
+}
+.collab-default-oBc .auto-group-t4yo-4SJ .sub-title-vut .rectangle-34624103-3QA {
+  box-sizing: border-box;
+  padding: 0.497rem 1.678rem 0.807rem 6.8rem;
+  width: 26.2777rem;
+  height: 4.3042rem;
+  position: absolute;
+  left: 100.9rem;
+  top: 3.5rem;
+  text-align: right;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.6666666667;
+  color: #000000;
+  font-family: Pretendard, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/combined-shape.png');
+}
