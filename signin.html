@@ -15,33 +15,34 @@
 <body>
     <img src = "./assets/BKdiv.png" style = "position:fixed">
 
-    <a href = "main-default.html">
     <img src = "./assets/login/workie.png"
     style = "position: absolute;
     width: 133px; left: 20px; top: 12px;">
+    </a>
 
-    <a href = "main-default.html">
     <img src = "./assets/login/Home.png"
     style = "position: absolute;
     width: 100px; left: 360px; top: 15px">
 
-    <a href = "startguide-default.html">
     <img src = "./assets/login/startguide.png"
     style = "position: absolute;
     width: 90px; left: 500px; top: 24px">
 
-    <a href = "collab-default.html">
+
     <img src = "./assets/login/cooperate.png"
     style = "position: absolute;
     width: 73px; left: 640px; top: 16px">
 
-   <a href = "aipedia-default.html">
+ 
    <img src = "./assets/login/AIPedia.png"
     style = "position: absolute;
     width: 73px; left: 780px; top: 16px">
+
     <img src = "./assets/login/introduct.png"
     style = "position: absolute;
     width: 120px; left: 1250px; top: 20px">
+
+    
     <img src = "./assets/login/서브.png"
     style = "position: absolute;
     width: 708px;
@@ -72,6 +73,11 @@
         <button class="btn btn-outline-secondary" type="button" id="button-addon2"
         style = "position: absolute; left:780px; top:398px; width: 50px; padding: 10px; background-color: dimgray;color:white" onclick="postRandomNumber()">확인</button>
     </div>
+
+    <span style = "position: absolute; left: 550px; top: 375px; font-size:large">전화번호</span>
+    <span style = "position: absolute; left: 550px; top: 455px; font-size:large">인증번호 입력</span>
+    <span style = "position: absolute; left: 550px; top: 535px; font-size:large">Slack E Mail</span>
+
     <div class="mx-auto p-2 input-group mb-3">
         <input type="text" class="rounded-pill form-control" placeholder="문자로 받은 인증번호를 입력해주세요."" aria-label="Recipient's username" aria-describedby="button-addon2"
         style = "position: absolute; left: 550px; top: 480px; width: 210px; padding: 10px" id="input_num">
@@ -84,70 +90,62 @@
     </div>
     <button type="button" class="btn btn-primary" onClick = "location.href='signin2.html'" onclick="setLocalStorage()"
     style = "position: absolute; left: 630px; top: 630px; width: 130px; padding: 8px; background-color:#25D953; color:black"<b>다음으로</b></button>
-    <span style = "position: absolute; left: 550px; top: 375px; font-size:large">전화번호</span>
-    <span style = "position: absolute; left: 550px; top: 455px; font-size:large">인증번호 입력</span>
-    <span style = "position: absolute; left: 550px; top: 535px; font-size:large">Slack E Mail</span>
 
 
-        <script>
-                function postRandomNumber(){
-                        let phone_num = document.getElementById("Phone_Number").value
-                        localStorage.setItem('phone_num', phone_num)
-                        let url = '
-        http://15.164.94.18:3000/auth/postRandomNumber
-        '
-                        fetch(url, {
-                            method : 'POST',
-                            headers: {
-                                "Content-Type": "application/json",
-                            },
-                            body : JSON.stringify({
-                                phone_num : phone_num
-                            })
-                        }).then(row => {
-                            alert('인증번호를 발송하였습니다.')
-                        })
-                        .catch(function (error) {
-                            console.log('request failed', error)
-                        });
-                    }
-        
-                    function postRandomNumberVerify() {
-                        var input_num = document.getElementById("input_num").value
-                        var phone_num = localStorage.getItem('phone_num')
-                        let url = '
-        http://15.164.94.18:3000/auth/postRandomNumberVerify
-        '
-                        fetch(url, {
-                            method : 'POST',
-                            headers: {
-                                "Content-Type": "application/json",
-                            },
-                            body : JSON.stringify({
-                                phone_num : phone_num,
-                                input_num : input_num
-                            })
-                        })
-                        .then(row => {
-                            var data = row.json()
-                            console.log(data.then((row1) => {
-                                if(row1.status === 200) {
-                                alert('인증되었습니다.')
-                                window.location = 'signin2.html'
-                                } else {
-                                    alert('인증번호를 확인해주세요')
-                                    window.location = 'signin.html'
-                                }
-                            }))
-                        })
-                    }
-        
-                    function setLocalStorage() {
-                        var email = document.getElementById('email').value
-                        var phone_num = document.getElementById('Phone_Number').value
-                        localStorage.setItem('email', email)
-                        localStorage.setItem('phone_num', phone_num)
-                    }
-            </script>
-    
+    <script>
+        function postRandomNumber(){
+                let phone_num = document.getElementById("Phone_Number").value
+                localStorage.setItem('phone_num', phone_num)
+                let url = 'http://15.164.94.18:3000/auth/postRandomNumber'
+                fetch(url, {
+                    method : 'POST',
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body : JSON.stringify({
+                        phone_num : phone_num
+                    })
+                }).then(row => {
+                    alert('인증번호를 발송하였습니다.')
+                })
+                .catch(function (error) {
+                    console.log('request failed', error)
+                });
+            }
+
+            function postRandomNumberVerify() {
+                var input_num = document.getElementById("input_num").value
+                var phone_num = localStorage.getItem('phone_num')
+                let url = 'http://15.164.94.18:3000/auth/postRandomNumberVerify'
+                fetch(url, {
+                    method : 'POST',
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body : JSON.stringify({
+                        phone_num : phone_num,
+                        input_num : input_num
+                    })
+                })
+                .then(row => {
+                    var data = row.json()
+                    console.log(data.then((row1) => {
+                        if(row1.status === 200) {
+                            alert('인증되었습니다.')
+                            window.location = 'signin2.html'
+                        } else {
+                            alert('인증번호를 확인해주세요')
+                            window.location = 'signin.html'
+                        }
+                    }))
+                })
+            }
+
+            function setLocalStorage() {
+                var email = document.getElementById('email').value
+                var phone_num = document.getElementById('Phone_Number').value
+                localStorage.setItem('email', email)
+                localStorage.setItem('phone_num', phone_num)
+            }
+    </script>
 </body>

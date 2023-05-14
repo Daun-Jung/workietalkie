@@ -13,30 +13,33 @@
   <link rel="stylesheet" href="./styles/aipedia-default.css"/>
 </head>
 <body>
-    <img src = "./assets/BKdiv.png" style = "position:fixed">
-    <a href = "main-default.html"></a>
+  <img src = "./assets/BKdiv.png" style = "position:fixed">
     <img src = "./assets/login/workie.png"
     style = "position: absolute;
     width: 133px; left: 20px; top: 12px;">
-    <a href = "main-default.html">
+
     <img src = "./assets/login/Home.png"
     style = "position: absolute;
     width: 100px; left: 360px; top: 15px">
-    <a href = "startguide-default.html"></a>
-    <img src = "./assets/login/시작 가이드.png"
+
+    <img src = "./assets/login/startguide.png"
     style = "position: absolute;
     width: 90px; left: 500px; top: 24px">
-    <a href = "collab-default.html">
-    <img src = "./assets/login/협업하기.png"
+
+    <img src = "./assets/login/cooperate.png"
     style = "position: absolute;
     width: 73px; left: 640px; top: 16px">
-   <a href = "aipedia-default.html"></a>
+
    <img src = "./assets/login/AIPedia.png"
     style = "position: absolute;
     width: 73px; left: 780px; top: 16px">
-    <img src = "./assets/login/소개페이지.png"
+
+    <img src = "./assets/login/introduct.png"
     style = "position: absolute;
     width: 120px; left: 1250px; top: 20px">
+
+
+
     <img src = "./assets/login/square.png"
     style = "position: absolute;
     width: 1000px;
@@ -97,32 +100,30 @@
 https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
 " integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
-    <button type="button" class="btn btn-primary"
-    style = "position: absolute; left: 630px; top: 630px; width: 130px; padding: 8px; font-size:large;
-    color : black; background-color: #25D953; outline-color:#25D953" onclick="test()">다음으로</button>
-
+<button type="button" class="btn btn-primary"
+    style = "position: absolute; left: 630px; top: 630px; width: 130px; padding: 8px; font-size:large;
+    color : black; background-color: #25D953; outline-color:#25D953" onclick="test()">다음으로</button>
 
 
-     <script>
-        function setLocalStorageTypeStudent() {
-            var student = document.getElementById('student').value
-            localStorage.setItem('user_type', student)
-        }
-        function setLocalStorageTypeDeveloper() {
-            var developer = document.getElementById('developer').value
-            localStorage.setItem('user_type', developer)
-        }
-        function setLocalStorageTypePlanner() {
-            var planner = document.getElementById('planner').value
-            localStorage.setItem('user_type', planner)
-        }
-        function setLocalStorageTypeDesigner() {
-            var designer = document.getElementById('designer').value
-            localStorage.setItem('user_type', designer)
-        }
-        function test() {
-            window.location = 'signin3.html'
-        }
-    </script>
+<script>
+  function setLocalStorageTypeStudent() {
+      var student = document.getElementById('student').value
+      localStorage.setItem('user_type', student)
+  }
+  function setLocalStorageTypeDeveloper() {
+      var developer = document.getElementById('developer').value
+      localStorage.setItem('user_type', developer)
+  }
+  function setLocalStorageTypePlanner() {
+      var planner = document.getElementById('planner').value
+      localStorage.setItem('user_type', planner)
+  }
+  function setLocalStorageTypeDesigner() {
+      var designer = document.getElementById('designer').value
+      localStorage.setItem('user_type', designer)
+  }
+  function test() {
+    window.location = 'signin3.html'
+  }
+</script>
 </body>
