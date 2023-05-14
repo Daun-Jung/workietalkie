@@ -1,15 +1,7 @@
-<!-- 합쳐지고 최소화된 최신 CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-<!-- 부가적인 테마 -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
 <!DOCTYPE html>
 <html>
 <head>
+  <script src=“fetch.js”></script>
   <meta charset="utf-8" />
   <link rel="icon" href="./assets/logo.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,56 +14,102 @@
   <link rel="stylesheet" href="./styles/main-default.css"/>
 </head>
 <body>
+  <script>
+    function caller(){
+    let text = document.getElementById("keyword").value
+    let url = 'http://15.164.94.18:3000/tool/getToolHome?query=' + text
+    fetch(url)
+    .then(data => data.json())
+    .then((text) => {
+      console.log('js',text.data)
+      localStorage.setItem('length', text.data.length)
+      for(i = 0; i < text.data.length; i++) {
+        localStorage.setItem('title' + i, text.data[i].title)
+        localStorage.setItem('description' + i, text.data[i].description)
+        localStorage.setItem('url' + i, text.data[i].url)
+        localStorage.setItem('img_url' + i, text.data[i].img_url)
+      }
+      var test = localStorage.getItem('title1')
+      console.log(test)
+    })
+    .then(() => {
+      window.location = 'aipedia-default.html'
+    })
+    .catch(function (error) {
+      console.log('request failed', error)
+    });
+}
+  </script>
 <div class="main-default-7kJ">
   <div class="bk-uw4">
-    <img src="./assets/BKdiv.png"/>
-    <img class="image-Rnv" src="./assets/image-DYJ.png"/>
-    <img class="image-7Qr" src="./assets/image.png"/>
-    <img class="vector-2-e9t" src="./assets/vector-2-PNW.png"/>
-    <img class="vector-1-9cS" src="./assets/vector-1-Vh8.png"/>
+    <img src="./assets/BKdiv.png" style = "position: relative"/>
     <div class="div-gMU">
       <div class="auto-group-bp3q-Zw4">
-        <div class="workie-talkie-VZp">
-          <span class="workie-talkie-VZp-sub-0">Workie</span>
-          <span class="workie-talkie-VZp-sub-1">-</span>
-          <span class="workie-talkie-VZp-sub-2">Talkie</span>
-        </div>
-        <p class="sub-title-1Tc">
-          <span class="sub-title-1Tc-sub-0">AI 도구 가이드로 </span>
-          <span class="sub-title-1Tc-sub-1">협업</span>
-          <span class="sub-title-1Tc-sub-2">을</span>
-          <span class="sub-title-1Tc-sub-3"> 10배 효율</span>
-          <span class="sub-title-1Tc-sub-4">의 세계로 이끌다</span>
+        <p class="sub-title-1Tc mx-auto p-2">
+          <span>AI&nbsp;도구&nbsp;가이드로&nbsp;</span>
+          <span>협업</span>
+          <span>을&nbsp;</span>
+          <span>10배&nbsp;효율</span>
+          <span>의&nbsp;세계로&nbsp;이끌다</span>
         </p>
-        <div class="text-field-2fY">
-          <p class="value-Wai">당신의 업무 상황과 관련된 키워드를 입력해주세요. <br> 10배의 효율을 낼 수 있는 AI 도구들을 추천해드려요!</p>
-          <div class="thumb-7iv">
-          </div>
+        <div class="input-group mb-3" >
+          <input type="text" class="form-control rounded-pill" id = "keyword"
+                style = "margin: 30px 10px 60px 30px; width: 2000px; padding: 30px 15px;
+                height: 100px; font-size: 19px;
+                position: relative; top: 200px;"
+                  placeholder="당신의 업무 상황과 관련된 키워드를 입력해주세요. 10배의 효율을 낼 수 있는 AI 도구들을 추천해드려요!"
+                  aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary"
+                style = "position: absolute; left: 470px; top: 355px; font-size: large; color: white; outline-color: white; outline-width: 2in"
+                type="button" id="button-addon2" onclick='caller()'>바로 추천 받기</button>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+          
+          <button type="button" class="btn btn-outline-success" onClick = "location.href='signin.html'"
+          style = "background-color:#25D953; font-size:large; color: black;
+          position: absolute; left: 180px; top: 355px; width:270px "><b>가입</b>하고 더 정확한 추천받기</button>
+
         </div>
       </div>
-      <div class="auto-group-2s5d-Nuk">
-        <div class="group-1171274796-J2i">
-          <div class="cta-pmk">
-            <span class="cta-pmk-sub-0">가입</span>
-            <span class="cta-pmk-sub-1">하고 더 정확한 추천 받기</span>
-          </div>
-          <div class="frame-MfC">바로 추천 받기</div>
-        </div>
-        <div class="sub2-DhQ">Guide for 1,400+ AI Tools</div>
-      </div>
-    </div>
-    <div class="gnb-Xi6">
-      <div class="navbar1-sX4">
-        <img class="workie-logo-ypz" src="./assets/workie-logo.png"/>
-        <div class="menu-uCr">
-          <p class="home-RS6">Home</p>
-          <p class="item--LJA">시작 가이드</p>
-          <p class="item--cmU">협업하기</p>
-          <p class="aipedia-Kft">AIPedia</p>
-        </div>
-        <div class="button-intro-pMk">소개 페이지</div>
+
+        <div class="sub2-DhQ" style = "color: white">Guide for 1,400+ AI Tools</div>
       </div>
     </div>
-  </div>
-</div>
+
+    <img src = "./assets/BKdiv.png" style = "position:fixed">
+
+    <a href = "main-default.html">
+    <img src = "./assets/login/workie.png"
+    style = "position: absolute;
+    width: 133px; left: 20px; top: 12px;">
+
+    <a href = "main-default.html">
+    <img src = "./assets/login/Home.png"
+    style = "position: absolute;
+    width: 100px; left: 360px; top: 15px">
+
+    <a href = "startguide-default.html">
+    <img src = "./assets/login/startguide.png"
+    style = "position: absolute;
+    width: 90px; left: 500px; top: 24px">
+
+    <a href = "collab-default.html">
+    <img src = "./assets/login/cooperate.png"
+    style = "position: absolute;
+    width: 73px; left: 640px; top: 16px">
+
+   <a href = "aipedia-default.html">
+   <img src = "./assets/login/AIPedia.png"
+    style = "position: absolute;
+    width: 73px; left: 780px; top: 16px">
+
+    <a href= = "https://najinyang.notion.site/Demo-Page-Workie-Talkie-ec4d9982d71d45fbadf36bafccf20012">
+    <img src = "./assets/login/introduct.png"
+    style = "position: absolute;
+    width: 120px; left: 1250px; top: 20px">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 </body>

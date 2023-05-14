@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./assets/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>AIPedia/Default</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pretendard%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=SF+Pro+Text%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=SF+Pro%3A700"/>
+  <link rel="stylesheet" href="./styles/aipedia-default.css"/>
+</head>
+<body>
+    <img src = "./assets/BKdiv.png" style = "position:fixed">
+
+    <a href = "main-default.html">
+    <img src = "./assets/login/workie.png"
+    style = "position: absolute;
+    width: 133px; left: 20px; top: 12px;">
+
+    <a href = "main-default.html">
+    <img src = "./assets/login/Home.png"
+    style = "position: absolute;
+    width: 100px; left: 360px; top: 15px">
+
+    <a href = "startguide-default.html">
+    <img src = "./assets/login/startguide.png"
+    style = "position: absolute;
+    width: 90px; left: 500px; top: 24px">
+
+    <a href = "collab-default.html">
+    <img src = "./assets/login/cooperate.png"
+    style = "position: absolute;
+    width: 73px; left: 640px; top: 16px">
+
+   <a href = "aipedia-default.html">
+   <img src = "./assets/login/AIPedia.png"
+    style = "position: absolute;
+    width: 73px; left: 780px; top: 16px">
+    <img src = "./assets/login/introduct.png"
+    style = "position: absolute;
+    width: 120px; left: 1250px; top: 20px">
+    <img src = "./assets/login/서브.png"
+    style = "position: absolute;
+    width: 708px;
+    left: calc(50% - 708px/2);
+    top: 150px;
+    bottom: 88.79%">
+
+    <img src = "./assets/login/square2.png"
+    style = "position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 300px;
+    top: calc(50% - 582px/2 + 170px)">
+
+    <img src = "./assets/login/square.png"
+    style = "position: absolute;
+    width: 1000px;
+    height: 582px;
+    left: calc(50% - 1000px/2);
+    top: calc(50% - 582px/2 + 75px)">
+    <img src = "./assets/login/순서.png"
+    style = "position: absolute;
+    left: 500px;
+    top: 300px">
+    <div class="mx-auto p-2 input-group mb-3">
+        <input type="text" class="rounded-pill form-control" placeholder="'-' 없이 입력해주세요."" aria-label="Recipient's username" aria-describedby="button-addon2"
+        style = "position: absolute; left: 550px; top: 400px; width: 210px; padding: 10px;" id="Phone_Number">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+        style = "position: absolute; left:780px; top:398px; width: 50px; padding: 10px; background-color: dimgray;color:white" onclick="postRandomNumber()">확인</button>
+    </div>
+    <div class="mx-auto p-2 input-group mb-3">
+        <input type="text" class="rounded-pill form-control" placeholder="문자로 받은 인증번호를 입력해주세요."" aria-label="Recipient's username" aria-describedby="button-addon2"
+        style = "position: absolute; left: 550px; top: 480px; width: 210px; padding: 10px" id="input_num">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+        style = "position: absolute; left:780px; top:478px; width: 50px; padding: 10px; background-color: dimgray;color:white" onclick="postRandomNumberVerify()">확인</button>
+    </div>
+    <div class="mx-auto p-2 input-group mb-3">
+        <input type="text" id="email" class="rounded-pill form-control" placeholder="소식을 받고 협업 기능을 사용하려면 입력해주세요."" aria-label="Recipient's username" aria-describedby="button-addon2"
+        style = "position: absolute; left: 550px; top: 560px; width: 260px; padding: 10px">
+    </div>
+    <button type="button" class="btn btn-primary" onClick = "location.href='signin2.html'" onclick="setLocalStorage()"
+    style = "position: absolute; left: 630px; top: 630px; width: 130px; padding: 8px; background-color:#25D953; color:black"<b>다음으로</b></button>
+    <span style = "position: absolute; left: 550px; top: 375px; font-size:large">전화번호</span>
+    <span style = "position: absolute; left: 550px; top: 455px; font-size:large">인증번호 입력</span>
+    <span style = "position: absolute; left: 550px; top: 535px; font-size:large">Slack E Mail</span>
+
+
+        <script>
+                function postRandomNumber(){
+                        let phone_num = document.getElementById("Phone_Number").value
+                        localStorage.setItem('phone_num', phone_num)
+                        let url = '
+        http://15.164.94.18:3000/auth/postRandomNumber
+        '
+                        fetch(url, {
+                            method : 'POST',
+                            headers: {
+                                "Content-Type": "application/json",
+                            },
+                            body : JSON.stringify({
+                                phone_num : phone_num
+                            })
+                        }).then(row => {
+                            alert('인증번호를 발송하였습니다.')
+                        })
+                        .catch(function (error) {
+                            console.log('request failed', error)
+                        });
+                    }
+        
+                    function postRandomNumberVerify() {
+                        var input_num = document.getElementById("input_num").value
+                        var phone_num = localStorage.getItem('phone_num')
+                        let url = '
+        http://15.164.94.18:3000/auth/postRandomNumberVerify
+        '
+                        fetch(url, {
+                            method : 'POST',
+                            headers: {
+                                "Content-Type": "application/json",
+                            },
+                            body : JSON.stringify({
+                                phone_num : phone_num,
+                                input_num : input_num
+                            })
+                        })
+                        .then(row => {
+                            var data = row.json()
+                            console.log(data.then((row1) => {
+                                if(row1.status === 200) {
+                                alert('인증되었습니다.')
+                                window.location = 'signin2.html'
+                                } else {
+                                    alert('인증번호를 확인해주세요')
+                                    window.location = 'signin.html'
+                                }
+                            }))
+                        })
+                    }
+        
+                    function setLocalStorage() {
+                        var email = document.getElementById('email').value
+                        var phone_num = document.getElementById('Phone_Number').value
+                        localStorage.setItem('email', email)
+                        localStorage.setItem('phone_num', phone_num)
+                    }
+            </script>
+    
+</body>

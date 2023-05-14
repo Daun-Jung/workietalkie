@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./assets/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>AIPedia/Default</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pretendard%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=SF+Pro+Text%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=SF+Pro%3A700"/>
+  <link rel="stylesheet" href="./styles/aipedia-default.css"/>
+</head>
+<body>
+    <img src = "./assets/BKdiv.png" style = "position:fixed">
+    <a href = "main-default.html"></a>
+    <img src = "./assets/login/workie.png"
+    style = "position: absolute;
+    width: 133px; left: 20px; top: 12px;">
+    <a href = "main-default.html">
+    <img src = "./assets/login/Home.png"
+    style = "position: absolute;
+    width: 100px; left: 360px; top: 15px">
+    <a href = "startguide-default.html"></a>
+    <img src = "./assets/login/시작 가이드.png"
+    style = "position: absolute;
+    width: 90px; left: 500px; top: 24px">
+    <a href = "collab-default.html">
+    <img src = "./assets/login/협업하기.png"
+    style = "position: absolute;
+    width: 73px; left: 640px; top: 16px">
+   <a href = "aipedia-default.html"></a>
+   <img src = "./assets/login/AIPedia.png"
+    style = "position: absolute;
+    width: 73px; left: 780px; top: 16px">
+    <img src = "./assets/login/소개페이지.png"
+    style = "position: absolute;
+    width: 120px; left: 1250px; top: 20px">
+    <img src = "./assets/login/square.png"
+    style = "position: absolute;
+    width: 1000px;
+    height: 582px;
+    left: calc(50% - 1000px/2);
+    top: calc(50% - 582px/2 + 75px)">
+    <img src = "./assets/login/square2.png"
+    style = "position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 300px;
+    top: calc(50% - 582px/2 + 170px)">
+    <img src = "./assets/login/순서2.png"
+    style = "position: absolute;
+    left: 500px;
+    top: 300px">
+    <img src = "./assets/login/prompt.png"
+    style = "position: absolute;
+    height: 18px;
+    left: 540px;
+    top: 390px;
+    bottom: 88.79%;">
+    <img src = "./assets/login/서브.png"
+    style = "position: absolute;
+    width: 708px;
+    left: calc(50% - 708px/2);
+    top: 150px;
+    bottom: 88.79%">
+    <button type="button" class="btn btn-outline-success"
+    style = "position: absolute;
+    width: 130px;
+    top: 430px;
+    left: 560px; font-size:x-large;
+    padding: 5px;
+    outline-color: #25D953" id="student" onclick="setLocalStorageTypeStudent()">👩‍🎓 대학생</button>
+    <button type="button" class="btn btn-outline-success"
+    style = "position: absolute;
+    width: 130px;
+    top: 430px;
+    left: 700px; font-size:x-large;
+    padding: 5px;
+    outline-color: #25D953" id="developer" onclick="setLocalStorageTypeDeveloper()">👨‍💻 개발자</button>
+    <button type="button" class="btn btn-outline-success"
+    style = "position: absolute;
+    width: 130px;
+    top: 500px;
+    left: 560px; font-size:x-large;
+    padding: 5px;
+    outline-color: #25D953" id="planner" onclick="setLocalStorageTypePlanner()">🧑‍💼 기획자</button>
+    <button type="button" class="btn btn-outline-success"
+    style = "position: absolute;
+    width: 130px;
+    top: 500px;
+    left: 700px; font-size:x-large;
+    padding: 5px;
+    outline-color: #25D953" id="designer" onclick="setLocalStorageTypeDesigner()">🧑‍🎨 디자이너</button>
+    <link rel="stylesheet" href="
+https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css
+" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <button type="button" class="btn btn-primary"
+    style = "position: absolute; left: 630px; top: 630px; width: 130px; padding: 8px; font-size:large;
+    color : black; background-color: #25D953; outline-color:#25D953" onclick="test()">다음으로</button>
+
+
+
+     <script>
+        function setLocalStorageTypeStudent() {
+            var student = document.getElementById('student').value
+            localStorage.setItem('user_type', student)
+        }
+        function setLocalStorageTypeDeveloper() {
+            var developer = document.getElementById('developer').value
+            localStorage.setItem('user_type', developer)
+        }
+        function setLocalStorageTypePlanner() {
+            var planner = document.getElementById('planner').value
+            localStorage.setItem('user_type', planner)
+        }
+        function setLocalStorageTypeDesigner() {
+            var designer = document.getElementById('designer').value
+            localStorage.setItem('user_type', designer)
+        }
+        function test() {
+            window.location = 'signin3.html'
+        }
+    </script>
+</body>
